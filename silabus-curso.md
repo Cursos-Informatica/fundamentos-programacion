@@ -12,38 +12,32 @@
     - Pseudocódigo 
     - Diagrama Nassi Schneiderman
 
-# SESION 03: EL LENGUAJE JAVA Y SU ENTORNO. DATOS, VARIABLES Y TIPOS DE ESTRUCTURAS DE CONTROL 
+## SESION 03: EL LENGUAJE JAVA Y SU ENTORNO. DATOS, VARIABLES Y TIPOS DE ESTRUCTURAS DE CONTROL 
 - Estructura de control secuencial
 
-# SESION 04, 05, 06 y 07: ESTRUCTURA DE CONTROL SELECTIVA:
+## SESION 04, 05, 06 y 07: ESTRUCTURA DE CONTROL SELECTIVA:
 - Condicional simple (IF)
 - Condicional doble (IF-ELSE)
 - Condicional múltiple (SWITCH)
 - Condicional múltiple usando rangos.
 
-# SESION 08: EP: Evaluación Parcial
+## SESION 08: EP: Evaluación Parcial
 
-# SESION 09: ESTRUCTURA REPETITIVA:
+## SESION 09, 10 y 11 : ESTRUCTURA CONTROL REPETITIVA:
 - Acumuladores
 - WHILE (Mientras)
-
-# SESION 10: ESTRUCTURA DE CONTROL REPETITIVA: 
 - DO WHILE (Hacer-Mientras)
-
-# SESION 11: ESTRUCTURA DE CONTROL REPETITIVA: 
 - FOR (Para) 
 - Uso de herramientas de Gamificación
 
-# SESION 12: ESTRUCTURA DE DATOS
+## SESION 12 y 13: ESTRUCTURA DE DATOS
 - Arreglos (Vectores)
-
-# SESION 13: ESTRUCTURA DE DATOS
 - Arreglos (Matrices)
 
-# SESION 14: PROGRAMACIÓN MODULAR:
+## SESION 14: PROGRAMACIÓN MODULAR:
 - Funciones y procedimientos
 
-# SESION 15: TALLER DE ALGORITMOS
+## SESION 15: TALLER DE ALGORITMOS
 - Temas tratados hasta la sesión 14.
 
-# SESION 16: Evaluación final
+## SESION 16: Evaluación final
