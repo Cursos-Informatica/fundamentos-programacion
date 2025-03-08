@@ -3,18 +3,23 @@
 Aquí tienes un ejemplo completo de cómo desplegar una aplicación Java con Spring Boot en un clúster Kubernetes usando Minikube. 🚀
 
 🛠 Requisitos previos
-Antes de empezar, asegúrate de tener instalado: ✅ Docker → Para construir la imagen del microservicio
+Antes de empezar, asegúrate de tener instalado: 
+✅ Docker → Para construir la imagen del microservicio
+
 ✅ Minikube → Para un clúster local de Kubernetes
+
 ✅ kubectl → Para gestionar Kubernetes
+
 ✅ JDK 17+ → Para compilar el código Java
+
 ✅ Maven o Gradle → Para construir la aplicación
 
 Si aún no tienes Minikube, instálalo y ejecútalo:
 
-sh
-Copy
-Edit
+```sh
 minikube start
+```
+
 ## 1 Crear una aplicación Spring Boot simple
 Si no tienes una aplicación lista, puedes generar un proyecto en Spring Initializr:
 🔗 https://start.spring.io/
