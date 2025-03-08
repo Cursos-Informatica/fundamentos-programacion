@@ -35,9 +35,7 @@ Artifact: miapp
 
 
 ## 2 Crear un controlador en src/main/java/com/example/miapp/HelloController.java
-java
-Copy
-Edit
+```java
 package com.example.miapp;
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -54,6 +52,9 @@ public class HelloController {
     }
 }
 
+```
+
+
 ## 3 Configurar el puerto en src/main/resources/application.properties
 properties
 Copy
@@ -63,11 +64,10 @@ server.port=8080
 ## 4 Construir el JAR
 Ejecuta:
 
-sh
-Copy
-Edit
+```sh
 mvn clean package
 Esto generará un archivo target/miapp-0.0.1-SNAPSHOT.jar.
+```
 
 ## 5 Crear un Dockerfile
 En la raíz del proyecto, crea un archivo llamado Dockerfile:
@@ -82,22 +82,21 @@ ENTRYPOINT ["java", "-jar", "/app.jar"]
 ## 6 Construir la imagen Docker
 Si usas Minikube, usa su Docker interno:
 
-sh
-Copy
-Edit
+```sh
 eval $(minikube docker-env)
+```
+
 Luego, crea la imagen:
 
-sh
-Copy
-Edit
+```sh
 docker build -t miapp:v1 .
+```
+
 Verifica que la imagen existe:
 
-sh
-Copy
-Edit
+```sh
 docker images
+```
 
 ## 7 Crear un deployment en Kubernetes
 Crea un archivo YAML llamado deployment.yaml con el siguiente contenido:
@@ -127,47 +126,42 @@ spec:
 ## 8 Aplicar el deployment en Kubernetes
 Ejecuta:
 
-sh
-Copy
-Edit
+```sh
 kubectl apply -f deployment.yaml
+```
+
 Verifica que el pod está corriendo:
 
-sh
-Copy
-Edit
+```sh
 kubectl get pods
-
+```
 
 ## 9  Exponer la aplicación
 Para acceder al microservicio, crea un servicio:
 
-sh
-Copy
-Edit
+```sh
 kubectl expose deployment miapp-deployment --type=NodePort --port=8080
+```
+
 Obtén la URL con:
 
-sh
-Copy
-Edit
+```sh
 minikube service miapp-deployment --url
+```
 
 ## 10 Probar la API
 Abre la URL en tu navegador o usa curl:
 
-sh
-Copy
-Edit
+```sh
 curl $(minikube service miapp-deployment --url)/api/hello
+```
+
 Deberías recibir:
 
-txt
-Copy
-Edit
-
-
+```sh
 ¡Hola desde Kubernetes!
+```
+
 🎉 ¡Felicidades! Has desplegado tu microservicio Spring Boot en Kubernetes. 🚀
 
 
