@@ -1,5 +1,4 @@
-# Teoria
-
+# TEORIA
 
 ## SESION 04, 05, 06 y 07: ESTRUCTURA DE CONTROL SELECTIVA:
 - Condicional simple (IF)
@@ -7,9 +6,11 @@
 - Condicional múltiple (SWITCH)
 - Condicional múltiple usando rangos.
 
-# Practica
+# PRÁCTICA
 
 ## INSTALACION DE HERRAMIENTAS 
+
+- Instalar Draw.IO para la elaboración de diagramas de flujo.
 
 - Instalar VSCode
 [Curso completo para aprender a usar VSCode con Java - primeros pasos - Parte 01] (https://www.youtube.com/watch?v=3gW6AJNcfR4&t=448s)
