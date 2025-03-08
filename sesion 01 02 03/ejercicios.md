@@ -75,7 +75,7 @@ mediante esta característica el algoritmo se culmina la estructura de un algori
 [Curso completo para aprender a usar VSCode con Java - primeros pasos - Parte 01] (https://www.youtube.com/watch?v=3gW6AJNcfR4&t=448s)
 
 ## Ejercicio 1
-Escribe un programa en el que se declaren las variables enteras x e y. Asígnales los valores 144 y 999 respectivamente. A continuación, muestra por pantalla el valor de cada variable, la suma, la resta, la división y la multiplicación.
+Escribe un programa en el que se declaren las variables enteras x e y. Asígnales los valores 165 y 998 respectivamente. A continuación, muestra por pantalla el valor de cada variable, la suma, la resta, la división y la multiplicación.
 
 ## Ejercicio 2
 Crea la variable nombre y asígnale tu nombre completo. Muestra su valor por pantalla de tal forma que el resultado del programa sea el mismo que en el ejercicio 1 del capítulo 1.
