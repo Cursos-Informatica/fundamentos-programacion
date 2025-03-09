@@ -4,7 +4,7 @@ public class app_2_5 {
         char letra2 = 'b';
         System.out.println(letra1);
         System.out.println(letra2);
-        System.out.println(letra1 + letra2); //a=97 y b=98
+        System.out.println(letra1 + letra2); 
         System.out.println(letra1 + "" + letra2);
         }
 }
