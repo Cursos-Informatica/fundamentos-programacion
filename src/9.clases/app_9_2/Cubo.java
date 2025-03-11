@@ -1,3 +1,4 @@
+package app_9_2;
 public class Cubo {
     // atributos ////////////////////////////
     int capacidad; // capacidad máxima en litros

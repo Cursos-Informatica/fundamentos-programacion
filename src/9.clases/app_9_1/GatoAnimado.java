@@ -1,11 +1,12 @@
-public class Gato {
+package app_9_1;
+public class GatoAnimado {
     // atributos /////////////////////////////
     String color, raza, sexo;
     int edad;
     double peso;
     // métodos ///////////////////////////////
     // constructor
-    Gato (String s) {
+    GatoAnimado (String s) {
     this.sexo = s;
     }
     // getter
@@ -44,7 +45,7 @@ void come(String comida) {
     *
     * @param contrincante es el gato contra el que pelear
     */
-    void peleaCon(Gato contrincante) {
+    void peleaCon(GatoAnimado contrincante) {
     if (this.sexo.equals("hembra")) {
     System.out.println("no me gusta pelear");
     } else {

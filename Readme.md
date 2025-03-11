@@ -30,18 +30,18 @@
 - WHILE (Mientras)
 - DO WHILE (Hacer-Mientras)
 
-## SESION 07: ALEATORIOS:
-- Aleatorios
+## SESION 07: PROGRAMACIÓN MODULAR:
+- Funciones y procedimientos
+- Recursividad 
 
 ## SESION 08: EP: Evaluación Parcial
 
-## SESION 09 y 10: ESTRUCTURA DE DATOS:
+## SESION 09: ALEATORIOS:
+- Aleatorios
+
+## SESION 10 y 11: ESTRUCTURA DE DATOS:
 - Arreglos (Vectores)
 - Arreglos (Matrices)
-- Recursividad 
-
-## SESION 11: PROGRAMACIÓN MODULAR:
-- Funciones y procedimientos
 
 ## SESION 12 y 13: PROGRAMACION ORIENTADA A OBJETOS:
 - Clases, objetos y metodos.

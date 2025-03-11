@@ -1,3 +1,4 @@
+package app_9_3;
 public class Cuadrado {
     int lado;
 public Cuadrado(int l) {

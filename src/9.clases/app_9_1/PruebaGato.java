@@ -1,7 +1,8 @@
+package app_9_1;
 public class PruebaGato {
     public static void main(String[] args) {
         
-        Gato garfield = new Gato("macho");
+        GatoAnimado garfield = new GatoAnimado("macho");
         
         System.out.println("hola gatito");
         garfield.maulla();
@@ -12,12 +13,12 @@ public class PruebaGato {
         System.out.println("toma pescado, a ver si esto te gusta");
         garfield.come("pescado");
         
-        Gato tom = new Gato("macho");
+        GatoAnimado tom = new GatoAnimado("macho");
         
         System.out.println("Tom, toma sopita de verduras");
         tom.come("sopa de verduras");
         
-        Gato lisa = new Gato("hembra");
+        GatoAnimado lisa = new GatoAnimado("hembra");
         
         System.out.println("gatitos, a ver cómo maulláis");
         garfield.maulla();

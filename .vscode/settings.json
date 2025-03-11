@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "src/9.clases",
+        "src/8.funciones",
+        "src/7.arrays",
+        "src/6.aleatorios",
+        "src/5.bucles",
+        "src/4.condicional",
+        "src/3.lectura_datos",
+        "src/2.variables",
+        "src/1.salida_datos",
+        "src/11.ficheros"
+    ]
+}

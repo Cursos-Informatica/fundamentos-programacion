@@ -1,3 +1,4 @@
+package app_9_2;
 public class PruebaCubo {
     public static void main(String[] args) {
         Cubo cubito = new Cubo(2);
